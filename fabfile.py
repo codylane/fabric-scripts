@@ -4,7 +4,6 @@ import os.path
 import sys
 
 sys.path.append(os.path.abspath('../'))
-from rallyhosts import env
 
 @task
 def get_host_sshdkeys(sshdir="/etc/ssh"):
